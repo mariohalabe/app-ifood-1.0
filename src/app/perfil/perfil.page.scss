@@ -1,0 +1,131 @@
+.avatar {
+  position: absolute;
+  height: 100px;
+  border-radius: 50%;
+  top: 70px;
+  left: 90px;
+}
+.background {
+  position: absolute;
+  width: 410px;
+  height: 210px;
+  left: 0px;
+  top: 0px;
+  background: #ff0000;
+}
+.camera {
+  position: absolute;
+  height: 30px;
+  border-radius: 50%;
+  top: 130px;
+  left: 170px;
+}
+.voltar {
+  position: absolute;
+  height: 50px;
+  width: 30px;
+  left: 20px;
+  top: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+.title {
+  position: absolute;
+  color: #ffff;
+  font-family: "Dongle", sans-serif;
+  left: 110px;
+  font-size: 40px;
+  top: -5px;
+}
+.barra {
+  position: absolute;
+  width: 230px;
+  height: 1px;
+  left: 20px;
+  top: 290px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.barra1 {
+  position: absolute;
+  width: 230px;
+  height: 1px;
+  left: 20px;
+  top: 350px;
+  background: rgba(0, 0, 0, 0.4);
+}
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap');
+.nome {
+  top: 104%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+  color: black;
+  font-family: 'Prompt', sans-serif;
+} 
+.name {
+  top: 125%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+}
+.name1 {
+  top: 137%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+}
+.nome1 {
+  top: 154%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+} 
+.barra2 {
+  position: absolute;
+  width: 230px;
+  height: 1px;
+  left: -0px;
+  top: 55px;
+  opacity: 80%;
+  background: rgba(0, 0, 0, 0.4);
+}
+.nome2 {
+  top: 181%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+} 
+.name2 {
+  top: 162.5%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+}
+.barra3 {
+  position: absolute;
+  width: 230px;
+  height: 1px;
+  left: -0px;
+  opacity: 80%;
+  top: 55px;
+  background: rgba(0, 0, 0, 0.4);
+}
+.name3 {
+  top: 190%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+}
+.nome3 {
+  top: 207%;
+  position: absolute;
+  left: 20px;
+  opacity: 70%;
+  font-size: 15px;
+} 

@@ -1,0 +1,42 @@
+
+
+<ion-content>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab1">
+        <ion-icon color="primary" [routerLink]="['/home']" name="home">
+        </ion-icon>
+        <ion-label>Início</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="tab2">
+        <ion-icon color="primary" [routerLink]="['/seach']" name="search-outline">
+        </ion-icon>
+        <ion-label>Buscar</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="tab3">
+        <ion-icon
+          color="primary"
+          [routerLink]="['/pedidos']"
+          name="newspaper-outline"
+        >
+        </ion-icon>
+        <ion-label>Pedidos</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="tab4">
+        <ion-icon
+          color="primary"
+          [routerLink]="['/perfil']"
+          name="person-add-outline"
+        >
+        </ion-icon>
+        <ion-label>Perfil</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  <div>
+    <img  class="icon-pedidos" src="assets/icon/icon-pedidos.png" alt="">
+    <h1 class="meus-pedidos">  MEUS PEDIDOS </h1>
+    <h1 class="ifood"> Bora pedir um iFood? </h1>
+    <p class="texto"> Experimente os melhores restaurantes e <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; mercados perto de você </p>
+  </div>
+</ion-content>

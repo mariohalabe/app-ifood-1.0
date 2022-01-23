@@ -1,0 +1,11 @@
+ion-content{
+    --background:rgb(255, 255, 255);
+}
+@-webkit-keyframes rotate-in-center{0%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:0}100%{-webkit-transform:rotate(0);transform:rotate(0);opacity:1}}@keyframes rotate-in-center{0%{-webkit-transform:rotate(-360deg);transform:rotate(-360deg);opacity:0}100%{-webkit-transform:rotate(0);transform:rotate(0);opacity:1}}
+.container {
+    img {
+        -webkit-animation:rotate-in-center 1s cubic-bezier(.25,.46,.45,.94) both;animation:rotate-in-center 1s cubic-bezier(.25,.46,.45,.94) both;
+        height: 100px;
+        margin-top: 60%;
+    }
+}

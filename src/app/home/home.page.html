@@ -1,0 +1,100 @@
+<ion-content>
+  <div>
+    <ion-icon class="qr" name="qr-code-outline"></ion-icon>
+  </div>
+  <ion-tabs>
+    <ion-tab-bar slot="bottom">
+      <ion-tab-button tab="tab1">
+        <ion-icon color="primary" [routerLink]="['/home']" name="home">
+        </ion-icon>
+        <ion-label>Início</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="tab2">
+        <ion-icon color="primary" [routerLink]="['/seach']" name="search-outline">
+        </ion-icon>
+        <ion-label>Buscar</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="tab3">
+        <ion-icon
+          color="primary"
+          [routerLink]="['/pedidos']"
+          name="newspaper-outline"
+        >
+        </ion-icon>
+        <ion-label>Pedidos</ion-label>
+      </ion-tab-button>
+      <ion-tab-button tab="tab4">
+        <ion-icon
+          color="primary"
+          [routerLink]="['/perfil']"
+          name="person-add-outline"
+        >
+        </ion-icon>
+        <ion-label>Perfil</ion-label>
+      </ion-tab-button>
+    </ion-tab-bar>
+  </ion-tabs>
+  <div><h1 class="n">Gaspar Halabe</h1></div>
+  <div>
+    <ion-grid fixed>
+      <ion-row>
+        <ion-col size="12">
+          <ion-segment scrollable (ionChange)="onCategoryChange($event)">
+            <ion-segment-button
+              *ngFor="let category of categories"
+              value="{{ category }}"
+            >
+              <ion-label>{{category}}</ion-label>
+            </ion-segment-button>
+          </ion-segment>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  </div>
+  <div>
+    <div class="scrolling-wrapper">
+      <div class="box">
+        <h1 class="txt1">Hambúrguer</h1>
+        <img class="img" src="assets/icon/hamburguer.png" alt="" />
+      </div>
+      <div class="box1">
+        <h1 class="txt2">Sorvetes</h1>
+        <img class="img1" src="assets/icon/sorvete.png" alt="" />
+      </div>
+      <div class="box2">
+        <h1 class="txt3">Lanches</h1>
+        <img class="img2" src="assets/icon/lanches.png" alt="" />
+      </div>
+      <div class="box3">
+        <h1 class="txt4">Hambúrguer</h1>
+        <img class="img3" src="assets/icon/açai.png" alt="" />
+      </div>
+      <div class="box4">
+        <h1 class="txt5">Hambúrguer</h1>
+        <img class="img4" src="assets/icon/coxinha.png" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="scrolling-wrapper">
+    <div><img class="b" src="assets/icon/scroll2.png" alt="" /></div>
+    <div><img class="b" src="assets/icon/scroll1.png" alt="" /></div>
+    <div><img class="b" src="assets/icon/scroll3.png" alt="" /></div>
+  </div>
+  <div class="bola1"></div>
+  <div class="bola2"></div>
+  <div class="bola3"></div>
+  <div><img class="ifood" src="assets/icon/ifood1.png" alt="" /></div>
+  <div>
+    <h1 class="texto">Queridinhos no Ifood</h1>
+    <h1 class="texto2">Ver mais</h1>
+  </div>
+  <div>
+    <img class="hamburguer" src="assets/icon/hamburguer_incon.webp" alt="" />
+    <h1 class="sub">Onion Chicken Burguer</h1>
+    <p class="preço">R$ 3,99</p>
+    <s class="preço-cortado">R$ 22,01</s>
+    <p class="velocidade">45-50 min • R$ 5,99</p>
+  </div>
+  <div>
+    <ion-icon  class="seta" name="chevron-down-outline"></ion-icon>  </div>
+</ion-content>

@@ -1,0 +1,30 @@
+	<ion-card>
+					<ion-grid >
+						&nbsp;<h3 style="font-weight:bold;">Select Color</h3>
+						<ion-row>
+						<ion-item no-lines>
+						<ion-scroll scrollX="true">
+					<ion-col col ><button ion-button small  style="margin-top:20px;text-align: center;background-color: cornflowerblue;" >pink</button></ion-col>						 </ion-scroll>
+									</ion-item>
+								  </ion-row>
+						  </ion-grid>
+</ion-card>	
+############################################
+style
+
+       ion-scroll[scrollX] {
+        white-space: nowrap;
+        height:50px;
+        overflow: hidden;
+    
+        .scroll-item {
+          display: inline-block;
+        }
+      }
+    
+      /* Hide ion-content scrollbar */
+      ::-webkit-scrollbar{
+        display:none;
+      }
+
+###########################################33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333#########################################################################################################################################################################################################################################################################################################3
